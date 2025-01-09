@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "PirateSoftware GameJam 16 Practice Project",
+   "GUID": "{7ED70414-9C05-46DF-B68A-55314B39C9DB}",
+   "Generator": "2024.1.1.8691"
+  },
+  "CacheRoot": "../../../../../../../Documents/WwiseProjects/PirateSoftware GameJam 16 Practice Project/.cache",
+  "Platforms": [
+   {
+    "Name": "Web",
+    "GUID": "{43D5F559-C9CB-4394-B9C5-D6930B58B06C}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "../../../../../../../Documents/WwiseProjects/PirateSoftware GameJam 16 Practice Project/GeneratedSoundBanks/Web"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{D4EC6204-00A3-449B-8C44-612C96A76E23}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{058DD29F-51FE-931C-DA33-E92C418CA26A}"
+ }
+}
