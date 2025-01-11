@@ -13,8 +13,20 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ENEMY_CRAYONHIT = 414206859U;
+        static const AkUniqueID ENEMY_FOOTSTEPSOFF = 2413635886U;
+        static const AkUniqueID ENEMY_FOOTSTEPSON = 3921616528U;
+        static const AkUniqueID ENEMY_HITPLAYERKNIFE = 4279108229U;
+        static const AkUniqueID ENEMY_HITPLAYERMELEE = 809636346U;
+        static const AkUniqueID ENEMY_SWORDHIT = 275781020U;
+        static const AkUniqueID ENV_PILLOWDROP = 753173717U;
         static const AkUniqueID GAME_OVER = 1432716332U;
         static const AkUniqueID GAME_START = 733168346U;
+        static const AkUniqueID PC_FORESTFOOTSTEPSOFF = 3024685458U;
+        static const AkUniqueID PC_FORESTFOOTSTEPSON = 596498100U;
+        static const AkUniqueID PC_PILLOWDISARM = 1328694536U;
+        static const AkUniqueID PC_SWORDSWING = 1094486518U;
+        static const AkUniqueID PC_THROWCRAYON = 2407453025U;
         static const AkUniqueID PLAY_BGM = 3126765036U;
         static const AkUniqueID WAVE1_START = 1556374634U;
         static const AkUniqueID WAVE2_START = 3770510345U;
@@ -23,18 +35,6 @@ namespace AK
 
     namespace STATES
     {
-        namespace PLAYER_BURNING
-        {
-            static const AkUniqueID GROUP = 2275382370U;
-
-            namespace STATE
-            {
-                static const AkUniqueID BURNING_ACTIVE = 4259885963U;
-                static const AkUniqueID BURNING_INACTIVE = 3062721234U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
-        } // namespace PLAYER_BURNING
-
         namespace PLAYER_LIFE
         {
             static const AkUniqueID GROUP = 3762137787U;
@@ -46,18 +46,6 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace PLAYER_LIFE
-
-        namespace PLAYER_TETHERED
-        {
-            static const AkUniqueID GROUP = 1592972718U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID TETHER_ACTIVE = 3567183510U;
-                static const AkUniqueID TETHER_INACTIVE = 477298083U;
-            } // namespace STATE
-        } // namespace PLAYER_TETHERED
 
     } // namespace STATES
 
@@ -112,16 +100,6 @@ namespace AK
         static const AkUniqueID CYCLOSA_SIDECHAIN = 3172951054U;
         static const AkUniqueID GLITCHSYNTH_SIDECHAIN = 3044956269U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
-        static const AkUniqueID SS_AIR_FEAR = 1351367891U;
-        static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
-        static const AkUniqueID SS_AIR_FURY = 1029930033U;
-        static const AkUniqueID SS_AIR_MONTH = 2648548617U;
-        static const AkUniqueID SS_AIR_PRESENCE = 3847924954U;
-        static const AkUniqueID SS_AIR_RPM = 822163944U;
-        static const AkUniqueID SS_AIR_SIZE = 3074696722U;
-        static const AkUniqueID SS_AIR_STORM = 3715662592U;
-        static const AkUniqueID SS_AIR_TIMEOFDAY = 3203397129U;
-        static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
         static const AkUniqueID TANKPIANO_SIDECHAIN = 489317449U;
     } // namespace GAME_PARAMETERS
 
@@ -134,6 +112,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DYNAMICMUSIC = 376085973U;
+        static const AkUniqueID SOUNDEFFECTS = 3898083304U;
     } // namespace BANKS
 
     namespace BUSSES
@@ -143,10 +122,13 @@ namespace AK
         static const AkUniqueID CELTICFAIRY = 4225438636U;
         static const AkUniqueID CONTRABASS = 196747927U;
         static const AkUniqueID CYCLOSA = 3237734395U;
+        static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID GLITCHSYNTH = 2351969468U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_MASTER_BUS = 495113110U;
         static const AkUniqueID OTHERINSTRUMENTS = 4266000389U;
+        static const AkUniqueID PLAYERCHARACTER = 592691923U;
         static const AkUniqueID SOUND_EFFECTS_MASTER_BUS = 3993694368U;
         static const AkUniqueID TANKPIANO = 1135228456U;
     } // namespace BUSSES

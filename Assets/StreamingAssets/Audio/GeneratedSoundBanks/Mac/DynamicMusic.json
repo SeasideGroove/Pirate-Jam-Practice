@@ -1,0 +1,1243 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "376085973",
+    "Type": "User",
+    "GUID": "{114A0F10-B768-4AC1-B286-D46E68D127C1}",
+    "Language": "SFX",
+    "Hash": "{E32AE6DB-25AE-CAA4-5A71-D150A2DFC0D3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\DynamicMusic",
+    "ShortName": "DynamicMusic",
+    "Path": "DynamicMusic.bnk",
+    "Media": [
+     {
+      "Id": "27135079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2b\\Paranoia_Wave2b_GuitarDrone_8meas.wav",
+      "CachePath": "75/{7519591D-7E89-5BB8-17C1-64CFEFC70F7E}.wem"
+     },
+     {
+      "Id": "36218836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Cyclosa_2meas.wav",
+      "CachePath": "62/{6241C9F3-8CA4-7241-428B-7E0D95647C67}.wem"
+     },
+     {
+      "Id": "72871594",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Base_Cyclosa_8meas_ScDaiko.wav",
+      "CachePath": "41/{4125FDA8-B409-4496-DFF0-B00F6FA417D9}.wem"
+     },
+     {
+      "Id": "97626729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Kalimba_2meas.wav",
+      "CachePath": "6D/{6D31FAF6-2EEC-3962-F489-9BA041AECD5B}.wem"
+     },
+     {
+      "Id": "97997369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3aRepeat_Daiko_8meas.wav",
+      "CachePath": "15/{156A10B5-2CA8-CB48-7536-71CE3D65073C}.wem"
+     },
+     {
+      "Id": "98507254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2a\\Paranoia_Wave2a_Dulcimer_8meas.wav",
+      "CachePath": "2D/{2D3A9565-813A-2B6A-B6B5-EDE5A11D0211}.wem"
+     },
+     {
+      "Id": "126899174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_ViolinsViolas_2meas.wav",
+      "CachePath": "8C/{8CBA5552-18F4-6617-AF04-37096DF590E5}.wem"
+     },
+     {
+      "Id": "173179898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Daiko_3meas_2beatin.wav",
+      "CachePath": "E9/{E9CE020B-71A9-5761-EE37-EBB5A9252854}.wem"
+     },
+     {
+      "Id": "206559662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3b_CellosBasses_8meas_1measin.wav",
+      "CachePath": "AA/{AADACB25-1023-171F-D101-1337E8DF1292}.wem"
+     },
+     {
+      "Id": "214019109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3aPrime_Daiko_8meas_3beatin.wav",
+      "CachePath": "62/{62059C56-9C36-CE66-81E0-5020B6F9C9D6}.wem"
+     },
+     {
+      "Id": "221033774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Dulcimer_4meas.wav",
+      "CachePath": "46/{46A500F7-8DFC-AC12-64B0-6B1465BE9371}.wem"
+     },
+     {
+      "Id": "225350714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3b_ViolinsViolas_4meas.wav",
+      "CachePath": "5B/{5B937F31-9825-FCC4-D6F0-234C6512BD31}.wem"
+     },
+     {
+      "Id": "235743357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a_SirenSong_8meas.wav",
+      "CachePath": "D2/{D226891F-5BBC-9EE4-3306-9C2C961BE8C6}.wem"
+     },
+     {
+      "Id": "242220003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base\\Paranoia_Base_Cyclosa_8meas_ScDaiko.wav",
+      "CachePath": "41/{4125FDA8-B409-4496-DFF0-B00F6FA417D9}.wem"
+     },
+     {
+      "Id": "293761155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave1_Daiko_8meas.wav",
+      "CachePath": "1B/{1B009B4A-99FC-F2CF-DC36-66DAB0577B56}.wem"
+     },
+     {
+      "Id": "311946183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base\\Paranoia_Base_TankPiano_8meas_ScDaiko.wav",
+      "CachePath": "BE/{BE78DCEC-DA17-9B85-9DA0-11B11CF9E1D5}.wem"
+     },
+     {
+      "Id": "327659472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a_Contrabass_8meas.wav",
+      "CachePath": "DA/{DAE3F37F-D5EF-F1DC-9F8E-4490DF67B953}.wem"
+     },
+     {
+      "Id": "341303939",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_CelticFairy_2meas.wav",
+      "CachePath": "95/{95CD4321-CD65-1FB6-B003-545A62609FCE}.wem"
+     },
+     {
+      "Id": "351848333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_SirenSong_2meas.wav",
+      "CachePath": "EA/{EA00D367-30D6-3131-30BB-429E1F71742A}.wem"
+     },
+     {
+      "Id": "367540979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2-Wave3\\Paranoia_Wave2Trans_Dulcimer_8meas.wav",
+      "CachePath": "42/{42BFD4D3-F70F-8149-ECDE-628FC483CC16}.wem"
+     },
+     {
+      "Id": "367862250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3b_DarkStarBells+Vibra_8meas.wav",
+      "CachePath": "F0/{F0E65D15-C86A-3AB5-F81C-38C14A4B5EFB}.wem"
+     },
+     {
+      "Id": "450955603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2b\\Paranoia_Wave2b_Percussion_8meas.wav",
+      "CachePath": "3D/{3D197ABA-0B81-39D1-092C-1516193FB8E2}.wem"
+     },
+     {
+      "Id": "465494615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro-Wave1\\Paranoia_IntroTrans_Percussion_8meas.wav",
+      "CachePath": "BF/{BFCE7B4A-075A-D479-EBD4-D5A8BEE6493F}.wem"
+     },
+     {
+      "Id": "485522877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base\\Paranoia_BaseWavesOnly_CelticFairy_8meas.wav",
+      "CachePath": "8F/{8F6C12DD-F7DF-37E1-51FB-0ADB4066EAE5}.wem"
+     },
+     {
+      "Id": "509433544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3b_GuitarBowedDrone_8meas.wav",
+      "CachePath": "4B/{4B721CA1-FD26-2792-1BC8-22858C868F30}.wem"
+     },
+     {
+      "Id": "520539979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Contrabass_4meas.wav",
+      "CachePath": "1A/{1A20EE6A-4B13-3AF0-C455-17C88DCD4B79}.wem"
+     },
+     {
+      "Id": "536308238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base\\Paranoia_Base_WindBirdsong_8meas.wav",
+      "CachePath": "61/{61857A6D-366C-B806-40F8-57F0DD04AD96}.wem"
+     },
+     {
+      "Id": "536808886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave1-Wave2\\Paranoia_Wave1Trans_Percussion_4meas.wav",
+      "CachePath": "98/{988DE1D2-6DAA-5A1E-A321-6F9BF773A89B}.wem"
+     },
+     {
+      "Id": "547212684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a2_SirenSong_8meas.wav",
+      "CachePath": "89/{89E41559-1036-83C9-DF1A-3712D3AB08A3}.wem"
+     },
+     {
+      "Id": "603934556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro-Wave1\\Paranoia_IntroTrans_Daiko_8meas.wav",
+      "CachePath": "77/{77C06F3D-2213-454E-FB65-EEE45AEC9E97}.wem"
+     },
+     {
+      "Id": "604991530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2a\\Paranoia_Wave2a_Daiko_8meas.wav",
+      "CachePath": "FF/{FFCDF563-6AF3-4DCF-E144-B86B4BDBCA4F}.wem"
+     },
+     {
+      "Id": "622012361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave1-Wave2\\Paranoia_Wave1Trans_Daiko_4meas.wav",
+      "CachePath": "AB/{AB14CA0D-3C39-28D8-DD0C-14DD40CED1C0}.wem"
+     },
+     {
+      "Id": "622486005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro-Wave1\\Paranoia_IntroTrans_TankPiano_8meas.wav",
+      "CachePath": "FF/{FFF3A7F1-4D73-FE7C-E867-67952F003692}.wem"
+     },
+     {
+      "Id": "632345969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Paranoia_Wave2_Contrabasses_8meas_ScDaiko.wav",
+      "CachePath": "B0/{B07DC209-0964-3CFF-E459-499947D01CD6}.wem"
+     },
+     {
+      "Id": "646296620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave1\\Paranoia_Wave1_SirenSong_8meas.wav",
+      "CachePath": "B2/{B2EB830B-2B63-D043-0425-AF467ED12D07}.wem"
+     },
+     {
+      "Id": "646931671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a_Dulcimer_8meas.wav",
+      "CachePath": "C5/{C5C7EFB9-0711-5E23-F64D-4BBCDBFC4AA9}.wem"
+     },
+     {
+      "Id": "649886650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2a\\Paranoia_Wave2a_SirenSong_8meas.wav",
+      "CachePath": "20/{20116BA5-9CEE-4B54-0DE0-DB73D5BC372F}.wem"
+     },
+     {
+      "Id": "705691254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2a\\Paranoia_Wave2a_Percussion_8meas.wav",
+      "CachePath": "C5/{C531E9CC-3974-1A6D-010E-C431975626BE}.wem"
+     },
+     {
+      "Id": "749881460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_CellosBasses_4meas.wav",
+      "CachePath": "18/{18B1B2EC-3783-4411-DAD5-044B9CBDB4BA}.wem"
+     },
+     {
+      "Id": "782975952",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3_Percussion_8meas_3beatin.wav",
+      "CachePath": "51/{51BEF07D-3040-67FF-1A8A-35EF878C404C}.wem"
+     },
+     {
+      "Id": "783329749",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a_DarkStarBells+Vibra_8meas.wav",
+      "CachePath": "0A/{0ACF2280-F76F-ADFC-B991-74E837D54FDE}.wem"
+     },
+     {
+      "Id": "811963971",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a2_Dulcimer_8meas.wav",
+      "CachePath": "C3/{C3B30599-86C8-924D-76B7-27705B314FDD}.wem"
+     },
+     {
+      "Id": "812092631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro-Wave1\\Paranoia_IntroTrans_SirenSong_4meas.wav",
+      "CachePath": "F9/{F983A450-9FDB-33A1-AFBA-37C8739FD5ED}.wem"
+     },
+     {
+      "Id": "812980664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Percussion_4meas.wav",
+      "CachePath": "E4/{E4E03FC0-9410-7B76-EEC7-BDA8AEB61BFE}.wem"
+     },
+     {
+      "Id": "827278372",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_Daiko_3meas.wav",
+      "CachePath": "5C/{5C377F41-647B-39B4-9BBF-1B962DD87AFB}.wem"
+     },
+     {
+      "Id": "827788534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2b\\Paranoia_Wave2b_Dulcimer_8meas.wav",
+      "CachePath": "F0/{F0DCAD20-A109-9577-EBB0-9DC741523412}.wem"
+     },
+     {
+      "Id": "829449650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro\\Paranoia_Intro_Cyclosa_10meas.wav",
+      "CachePath": "CE/{CE4FC0DD-B46B-FC98-0C35-BBBFCB44B54A}.wem"
+     },
+     {
+      "Id": "834786239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave1_Percussion_8meas.wav",
+      "CachePath": "92/{92E6F732-E33A-F483-711E-570A93214617}.wem"
+     },
+     {
+      "Id": "892861034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave1-Wave2\\Paranoia_Wave1Trans_CorruptedCellos_4measLag.wav",
+      "CachePath": "F4/{F4A8E735-8288-8EEA-5A5F-7C4746321A80}.wem"
+     },
+     {
+      "Id": "928128909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3b_Dulcimer_8meas.wav",
+      "CachePath": "74/{7459FF74-7F21-97B5-7325-065BD35F370C}.wem"
+     },
+     {
+      "Id": "941555693",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base\\Paranoia_Base_KalimbaEchoed_8meas.wav",
+      "CachePath": "E2/{E21B132F-2AC7-5548-5A19-4EC7EE58514E}.wem"
+     },
+     {
+      "Id": "953117875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Wave3a2_ViolinsViolas_8meas.wav",
+      "CachePath": "52/{523D990F-5F22-8EFD-7717-C2CC8BDFA21E}.wem"
+     },
+     {
+      "Id": "989571825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro\\Paranoia_Intro_Kalimba_10meas.wav",
+      "CachePath": "F3/{F3B0FBE2-BBF6-7BB7-8071-E358CF563941}.wem"
+     },
+     {
+      "Id": "1013306400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro\\Paranoia_Intro_WindBirdsong_10meas.wav",
+      "CachePath": "C3/{C398792B-629D-B3C1-A3F7-8E5D7E964763}.wem"
+     },
+     {
+      "Id": "1027150813",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2a\\Paranoia_Wave2a_CorruptedCellos_4meas.wav",
+      "CachePath": "DA/{DA6A1D48-35BB-F0AC-485B-2CBB8536DC27}.wem"
+     },
+     {
+      "Id": "1069175899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2b\\Paranoia_Wave2b_CorruptedCellos_8meas.wav",
+      "CachePath": "06/{06DC26F5-CB31-CB9B-DF28-1A671B7A5DAA}.wem"
+     },
+     {
+      "Id": "1069994409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paranoia_Death_MusicBox_2meas.wav",
+      "CachePath": "49/{49DB5A0B-71F0-2560-15FD-10A5229A3958}.wem"
+     },
+     {
+      "Id": "1071399686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wave2\\Wave 2b\\Paranoia_Wave2b_GlitchSynth_8meas_ScDaiko.wav",
+      "CachePath": "A3/{A34554C6-9386-961F-DE76-EA9F30BB072E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1432716332",
+      "Name": "Game_Over",
+      "ObjectPath": "\\Events\\Default Work Unit\\Game_Over",
+      "GUID": "{9D167331-6485-4B9E-9E39-643C013101EC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "1239043692",
+        "Id": "4158285989",
+        "Name": "GameOver",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BGM_Switch\\GameOver",
+        "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+       }
+      ]
+     },
+     {
+      "Id": "733168346",
+      "Name": "Game_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Game_Start",
+      "GUID": "{E3F129E8-2818-47B6-9225-76A41892D0F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionPostEvent": [
+       {
+        "Id": "3126765036",
+        "Name": "Play_BGM",
+        "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_BGM",
+        "GUID": "{FA9999C7-DD3E-4839-9A4D-EB56D828B3C5}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "309484736",
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Start",
+        "GUID": "{D286F95A-D82D-44E7-A31A-B338DAB06236}"
+       },
+       {
+        "GroupId": "1239043692",
+        "Id": "4058101365",
+        "Name": "GameStart",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BGM_Switch\\GameStart",
+        "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+       }
+      ]
+     },
+     {
+      "Id": "3126765036",
+      "Name": "Play_BGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_BGM",
+      "GUID": "{FA9999C7-DD3E-4839-9A4D-EB56D828B3C5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "36218836"
+       },
+       {
+        "Id": "97626729"
+       },
+       {
+        "Id": "126899174"
+       },
+       {
+        "Id": "173179898"
+       },
+       {
+        "Id": "221033774"
+       },
+       {
+        "Id": "341303939"
+       },
+       {
+        "Id": "351848333"
+       },
+       {
+        "Id": "520539979"
+       },
+       {
+        "Id": "749881460"
+       },
+       {
+        "Id": "812980664"
+       },
+       {
+        "Id": "827278372"
+       },
+       {
+        "Id": "1069994409"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4058101365",
+         "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "1281810935",
+           "GUID": "{D286F95A-D82D-44E7-A31A-B338DAB06236}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "242220003"
+           },
+           {
+            "Id": "311946183"
+           },
+           {
+            "Id": "465494615"
+           },
+           {
+            "Id": "536308238"
+           },
+           {
+            "Id": "603934556"
+           },
+           {
+            "Id": "622486005"
+           },
+           {
+            "Id": "812092631"
+           },
+           {
+            "Id": "829449650"
+           },
+           {
+            "Id": "989571825"
+           },
+           {
+            "Id": "1013306400"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4058101365",
+         "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122375",
+           "GUID": "{8A91CFCE-2F39-4A8F-BBF0-7E45C7D7BD51}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "242220003"
+           },
+           {
+            "Id": "293761155"
+           },
+           {
+            "Id": "311946183"
+           },
+           {
+            "Id": "485522877"
+           },
+           {
+            "Id": "536308238"
+           },
+           {
+            "Id": "536808886"
+           },
+           {
+            "Id": "622012361"
+           },
+           {
+            "Id": "646296620"
+           },
+           {
+            "Id": "834786239"
+           },
+           {
+            "Id": "892861034"
+           },
+           {
+            "Id": "941555693"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4058101365",
+         "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122372",
+           "GUID": "{A7892325-92CF-4D11-A39B-612A8A5FBB1B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "27135079"
+           },
+           {
+            "Id": "98507254"
+           },
+           {
+            "Id": "242220003"
+           },
+           {
+            "Id": "311946183"
+           },
+           {
+            "Id": "367540979"
+           },
+           {
+            "Id": "450955603"
+           },
+           {
+            "Id": "485522877"
+           },
+           {
+            "Id": "536308238"
+           },
+           {
+            "Id": "604991530"
+           },
+           {
+            "Id": "632345969"
+           },
+           {
+            "Id": "649886650"
+           },
+           {
+            "Id": "705691254"
+           },
+           {
+            "Id": "827788534"
+           },
+           {
+            "Id": "941555693"
+           },
+           {
+            "Id": "1027150813"
+           },
+           {
+            "Id": "1069175899"
+           },
+           {
+            "Id": "1071399686"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4058101365",
+         "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122373",
+           "GUID": "{9A3974A9-24B7-43FD-8C3C-140298841071}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "97997369"
+           },
+           {
+            "Id": "206559662"
+           },
+           {
+            "Id": "214019109"
+           },
+           {
+            "Id": "225350714"
+           },
+           {
+            "Id": "235743357"
+           },
+           {
+            "Id": "242220003"
+           },
+           {
+            "Id": "311946183"
+           },
+           {
+            "Id": "327659472"
+           },
+           {
+            "Id": "367862250"
+           },
+           {
+            "Id": "485522877"
+           },
+           {
+            "Id": "509433544"
+           },
+           {
+            "Id": "536308238"
+           },
+           {
+            "Id": "547212684"
+           },
+           {
+            "Id": "646931671"
+           },
+           {
+            "Id": "782975952"
+           },
+           {
+            "Id": "783329749"
+           },
+           {
+            "Id": "811963971"
+           },
+           {
+            "Id": "928128909"
+           },
+           {
+            "Id": "941555693"
+           },
+           {
+            "Id": "953117875"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4058101365",
+         "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "979765101",
+           "GUID": "{FDF57B0E-C9D8-41CD-AE51-57D103F8EFA1}"
+          },
+          "Children": [
+           {
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1239043692",
+             "Id": "4158285989",
+             "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+            },
+            "Children": [
+             {
+              "SwitchValue": {
+               "GroupType": "Switch",
+               "GroupId": "309484736",
+               "Id": "2453122375",
+               "GUID": "{8A91CFCE-2F39-4A8F-BBF0-7E45C7D7BD51}"
+              },
+              "MediaRefs": [
+               {
+                "Id": "36218836"
+               },
+               {
+                "Id": "97626729"
+               },
+               {
+                "Id": "341303939"
+               },
+               {
+                "Id": "351848333"
+               },
+               {
+                "Id": "812980664"
+               },
+               {
+                "Id": "827278372"
+               },
+               {
+                "Id": "1069994409"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1239043692",
+             "Id": "4158285989",
+             "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+            },
+            "Children": [
+             {
+              "SwitchValue": {
+               "GroupType": "Switch",
+               "GroupId": "309484736",
+               "Id": "2453122372",
+               "GUID": "{A7892325-92CF-4D11-A39B-612A8A5FBB1B}"
+              },
+              "MediaRefs": [
+               {
+                "Id": "36218836"
+               },
+               {
+                "Id": "221033774"
+               },
+               {
+                "Id": "341303939"
+               },
+               {
+                "Id": "351848333"
+               },
+               {
+                "Id": "520539979"
+               },
+               {
+                "Id": "812980664"
+               },
+               {
+                "Id": "827278372"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1239043692",
+             "Id": "4158285989",
+             "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+            },
+            "Children": [
+             {
+              "SwitchValue": {
+               "GroupType": "Switch",
+               "GroupId": "309484736",
+               "Id": "2453122373",
+               "GUID": "{9A3974A9-24B7-43FD-8C3C-140298841071}"
+              },
+              "MediaRefs": [
+               {
+                "Id": "36218836"
+               },
+               {
+                "Id": "126899174"
+               },
+               {
+                "Id": "173179898"
+               },
+               {
+                "Id": "221033774"
+               },
+               {
+                "Id": "520539979"
+               },
+               {
+                "Id": "749881460"
+               },
+               {
+                "Id": "812980664"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1239043692",
+             "Id": "4058101365",
+             "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+            },
+            "Children": [
+             {
+              "SwitchValue": {
+               "GroupType": "Switch",
+               "GroupId": "309484736",
+               "Id": "979765101",
+               "GUID": "{FDF57B0E-C9D8-41CD-AE51-57D103F8EFA1}"
+              },
+              "MediaRefs": [
+               {
+                "Id": "36218836"
+               },
+               {
+                "Id": "126899174"
+               },
+               {
+                "Id": "173179898"
+               },
+               {
+                "Id": "221033774"
+               },
+               {
+                "Id": "520539979"
+               },
+               {
+                "Id": "749881460"
+               },
+               {
+                "Id": "812980664"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4158285989",
+         "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "1281810935",
+           "GUID": "{D286F95A-D82D-44E7-A31A-B338DAB06236}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "72871594"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4158285989",
+         "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122375",
+           "GUID": "{8A91CFCE-2F39-4A8F-BBF0-7E45C7D7BD51}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "72871594"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4158285989",
+         "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122372",
+           "GUID": "{A7892325-92CF-4D11-A39B-612A8A5FBB1B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "72871594"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1239043692",
+         "Id": "4158285989",
+         "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "309484736",
+           "Id": "2453122373",
+           "GUID": "{9A3974A9-24B7-43FD-8C3C-140298841071}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "72871594"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1556374634",
+      "Name": "Wave1_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Waves\\Wave1_Start",
+      "GUID": "{200D6774-73DC-4D1A-915E-2EFD3937CF7B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "309484736",
+        "Id": "2453122375",
+        "Name": "Wave1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave1",
+        "GUID": "{8A91CFCE-2F39-4A8F-BBF0-7E45C7D7BD51}"
+       }
+      ]
+     },
+     {
+      "Id": "3770510345",
+      "Name": "Wave2_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Waves\\Wave2_Start",
+      "GUID": "{513DA46E-4440-4821-BEAC-7410FD4AE1C4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "309484736",
+        "Id": "2453122372",
+        "Name": "Wave2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave2",
+        "GUID": "{A7892325-92CF-4D11-A39B-612A8A5FBB1B}"
+       }
+      ]
+     },
+     {
+      "Id": "3819612116",
+      "Name": "Wave3_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Waves\\Wave3_Start",
+      "GUID": "{3267AEDD-A366-45B2-8D53-2DB9F563E75D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "309484736",
+        "Id": "2453122373",
+        "Name": "Wave3",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave3",
+        "GUID": "{9A3974A9-24B7-43FD-8C3C-140298841071}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "215992295",
+      "Name": "Player_Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player_Health",
+      "GUID": "{CF1603FD-30A8-4641-AC20-486621E80235}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "309484736",
+      "Name": "Paranoia_Wave",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave",
+      "GUID": "{3A592D7E-5B67-403A-913A-F7699CA39969}",
+      "Switches": [
+       {
+        "Id": "979765101",
+        "Name": "Win",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Win",
+        "GUID": "{FDF57B0E-C9D8-41CD-AE51-57D103F8EFA1}"
+       },
+       {
+        "Id": "1281810935",
+        "Name": "Start",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Start",
+        "GUID": "{D286F95A-D82D-44E7-A31A-B338DAB06236}"
+       },
+       {
+        "Id": "2453122372",
+        "Name": "Wave2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave2",
+        "GUID": "{A7892325-92CF-4D11-A39B-612A8A5FBB1B}"
+       },
+       {
+        "Id": "2453122373",
+        "Name": "Wave3",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave3",
+        "GUID": "{9A3974A9-24B7-43FD-8C3C-140298841071}"
+       },
+       {
+        "Id": "2453122375",
+        "Name": "Wave1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Paranoia_Wave\\Wave1",
+        "GUID": "{8A91CFCE-2F39-4A8F-BBF0-7E45C7D7BD51}"
+       }
+      ]
+     },
+     {
+      "Id": "1239043692",
+      "Name": "BGM_Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BGM_Switch",
+      "GUID": "{85167CB0-5D31-4D23-BC13-C60BD4AF81E9}",
+      "Switches": [
+       {
+        "Id": "4058101365",
+        "Name": "GameStart",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BGM_Switch\\GameStart",
+        "GUID": "{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"
+       },
+       {
+        "Id": "4158285989",
+        "Name": "GameOver",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BGM_Switch\\GameOver",
+        "GUID": "{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{20C585C7-82A4-CEDD-CC27-3F5DE4EE69D9}"
+ }
+}
