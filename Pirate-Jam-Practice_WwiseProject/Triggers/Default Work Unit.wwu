@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9BABA9D0-CE08-45C6-A0CC-4F15CD892023}" SchemaVersion="123">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{9BABA9D0-CE08-45C6-A0CC-4F15CD892023}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Player_Death" ID="{464338CA-D239-4420-BAE0-7FA6A491DC37}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -1,0 +1,50 @@
+Event	ID	Name			Wwise Object Path	Notes
+	275781020	Enemy_SwordHit			\Default Work Unit\Enemies\Enemy_SwordHit	
+	414206859	Enemy_CrayonHit			\Default Work Unit\Enemies\Enemy_CrayonHit	
+	596498100	PC_ForestFootstepsOn			\Default Work Unit\Player\PC_ForestFootstepsOn	
+	753173717	ENV_PillowDrop			\Default Work Unit\Environment\ENV_PillowDrop	
+	809636346	Enemy_HitPlayerMelee			\Default Work Unit\Enemies\Enemy_HitPlayerMelee	
+	1094486518	PC_SwordSwing			\Default Work Unit\Player\PC_SwordSwing	
+	1328694536	PC_PillowDisarm			\Default Work Unit\Player\PC_PillowDisarm	
+	2407453025	PC_ThrowCrayon			\Default Work Unit\Player\PC_ThrowCrayon	
+	2413635886	Enemy_FootstepsOff			\Default Work Unit\Enemies\Enemy_FootstepsOff	
+	3024685458	PC_ForestFootstepsOff			\Default Work Unit\Player\PC_ForestFootstepsOff	
+	3921616528	Enemy_FootstepsOn			\Default Work Unit\Enemies\Enemy_FootstepsOn	
+	4279108229	Enemy_HitPlayerKnife			\Default Work Unit\Enemies\Enemy_HitPlayerKnife	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3762137787	Player_Life			\Default Work Unit\Player_Life	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player_Life			
+	748895195	None	Player_Life			
+	2044049779	Dead	Player_Life			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	33913086	PC_MeleeHit_Punch_1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\ED\{EDBF17B5-9A3C-5B84-DE67-73D7539E2EEF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Unarmed\PC_MeleeHit_Punch\PC_MeleeHit_Punch_1		7966
+	49778148	PC_SwordSwing1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\6A\{6A3E09A7-3A36-7E77-A02F-105C4C3E8D7F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_SwordSwing\PC_SwordSwing1		3740
+	182227812	PC_MeleeHit_Punch_2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\4F\{4FAE0F7E-DD2F-D5A8-D621-6CADB871CFB2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Unarmed\PC_MeleeHit_Punch\PC_MeleeHit_Punch_2		6672
+	210386064	PC_PillowBlock3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\24\{246691B9-8101-EEB6-7D81-A61578FF071B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowBlock\PC_PillowBlock3		4137
+	235858421	PC_MeleeHit_PunchKill	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\E3\{E3C35C43-511D-3B03-73CD-D41C53329EC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Unarmed\PC_MeleeHit_PunchKill		8891
+	304408672	PC_MeleeHit_Stab_1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\20\{2098D667-4880-4632-7E87-B4B12D92941E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Weapon\PC_MeleeHit_Stab\PC_MeleeHit_Stab_1		7007
+	308919101	PC_SwordSwing2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\78\{7822E771-0717-2E78-387C-189714B099A0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_SwordSwing\PC_SwordSwing2		4769
+	403372128	PC_ForestFootsteps3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\B0\{B0173D98-DCCC-2964-11F4-6E4AABDB6AD3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_ForestFootsteps\PC_ForestFootsteps3		6440
+	432286883	PC_PillowWhoosh2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\54\{54EE97F6-FD45-1FD2-97AD-96217BA35178}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowWhoosh\PC_PillowWhoosh2		5769
+	441484065	PC_MeleeHit_StabKill	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\53\{533FCA1A-C8C4-327F-6288-780FE3671820}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Weapon\PC_MeleeHit_StabKill		8942
+	486406626	Enemy_SwordHit	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\CD\{CD1310B3-C1B6-254A-15DB-2B0D1711ACF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Enemy_CrayonHit\Enemy_SwordHit		11527
+	520895864	Enemy_CrayonHit	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\63\{6383FFC0-AF4B-E80B-2C7E-8AEDB882FD12}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Enemy_CrayonHit\Enemy_CrayonHit		6214
+	548812793	PC_PillowFall2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\E6\{E6FF5A25-4702-B1D1-761A-6C4BADBB24E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\PC_PillowFall\PC_PillowFall2		2786
+	558334575	PC_PillowFall3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\9A\{9AFC5F1B-4AF8-3FA0-78AA-B13870ED4F05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\PC_PillowFall\PC_PillowFall3		3537
+	563453183	PC_MeleeHit_Stab_2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\F7\{F7B8D201-565C-9B12-B639-39B5A84892FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Weapon\PC_MeleeHit_Stab\PC_MeleeHit_Stab_2		7710
+	625937772	PC_MeleeHit_Punch_3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\9F\{9F9F3691-18EC-F855-1EFA-49FD5A43E043}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Unarmed\PC_MeleeHit_Punch\PC_MeleeHit_Punch_3		7237
+	636680764	PC_SwordSwing3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\46\{466D7BF2-761D-FE76-8317-F3A3D3293033}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_SwordSwing\PC_SwordSwing3		4130
+	714503439	PC_PillowBlock1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\36\{36E7933B-B51C-41A7-8369-C039AD1F36B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowBlock\PC_PillowBlock1		3791
+	736676584	PC_MeleeHit_Stab_3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\03\{036E035B-DC0E-29EA-2885-E24A2C130BFC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\PC_MeleeHit_Weapon\PC_MeleeHit_Stab\PC_MeleeHit_Stab_3		9131
+	747726207	PC_PillowBlock2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\E5\{E5B410DD-3520-C111-120E-6558F4842FF0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowBlock\PC_PillowBlock2		3530
+	766838447	PC_PillowFall1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\29\{299A545B-1101-BED3-5077-73FDE6257B5B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\PC_PillowFall\PC_PillowFall1		4064
+	782767119	PC_ForestFootsteps2	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\F1\{F194FECC-39EE-72DD-F336-AA49E47A6407}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_ForestFootsteps\PC_ForestFootsteps2		6161
+	785149413	PC_PillowWhoosh1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\C1\{C165FE88-DFDE-0528-773F-C4F69821DB30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowWhoosh\PC_PillowWhoosh1		5372
+	794288032	PC_ForestFootsteps1	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\F5\{F5AF62CA-1018-E4DF-BF1A-74E78216C5AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_ForestFootsteps\PC_ForestFootsteps1		5745
+	1046780744	PC_PillowWhoosh3	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\E9\{E9EE4CE1-115C-03E3-D18D-60C59D98AC3E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy_PillowDisarm\PC_PillowWhoosh\PC_PillowWhoosh3		5713
+	1058167969	PC_ThrowCrayon	Y:\Desktop\Unity Project- Game Jam Practice\Pirate-Jam-Practice\Pirate-Jam-Practice_WwiseProject\.cache\9B\{9B1AE7B0-9905-DCF4-A722-BD696F1580A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PC_ThrowCrayon		2794
+

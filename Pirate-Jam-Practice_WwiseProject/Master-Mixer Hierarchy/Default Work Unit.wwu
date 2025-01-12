@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9EC268F7-A29A-47A9-9D02-82C41F4F9971}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9EC268F7-A29A-47A9-9D02-82C41F4F9971}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{F344AA2B-3436-46A1-8AEC-03B2815EC668}" WorkUnitID="{B5543A6F-5A99-4D81-95D9-2576C18FE15D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music Master Bus" ID="{9D11A8B3-D81D-4928-A90D-7F6F73E65168}">
+							<ChildrenList>
+								<Bus Name="BassDrum" ID="{FA9F353C-49F8-4FAA-8CD1-D24AF502BE03}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{0A4D144B-5F73-43BA-8850-D3FFE217C699}" ShortID="588339535">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="Cyclosa_SCComp" ID="{297B97FE-9A79-47E8-BA95-32E4406AB4B3}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{B88509F2-E78A-4A82-8825-3D58E02D69FB}" ShortID="582308812">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="Contrabass_SCComp" ID="{B07BA944-57D1-4D9A-B984-D23EA541C103}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{323B1C39-D46E-49BC-8ED7-0CEC117D4C6D}" ShortID="581261271">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="CelticFairy_SCComp" ID="{959ACDDB-C274-4DB1-B661-D31DFCAB32E4}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{10756BCB-D15B-4A14-8391-CE1B07248C37}" ShortID="437706071">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="TankPiano_SCComp" ID="{07ECBA32-C6D0-4662-8F9E-D79BCB9FD18A}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{0A5CCEC8-5983-4368-A9D6-9042B7921217}" ShortID="16083353">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<ObjectRef Name="GlitchSynth_SCComp" ID="{D837D70E-1919-4CE3-8F77-6B2AC78D6F59}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="BassInst" ID="{0EA270DC-763C-4006-B247-C0146B844CED}">
+									<ChildrenList>
+										<Bus Name="Cyclosa" ID="{951131E2-C087-414F-9D52-A7E6864F4A10}">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{FB224321-470E-442C-8A19-18BCFA3F61B9}" ShortID="731087642">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Cyclosa_Sidechain" ID="{D1831419-D0B2-4ECB-BA92-00186F9E7DDE}" WorkUnitID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{C12349E4-CDDD-4FE1-803A-9FED8908AD89}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>-48</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>-20</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-6.1474</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Contrabass" ID="{8B8FC325-D4E2-4C85-AD95-13FA37441B59}">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{807F4214-7BDE-46E3-A830-710FC90B6AD3}" ShortID="95296056">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Contrabass_Sidechain" ID="{37CDABEA-BFC0-4551-B19F-F28320452890}" WorkUnitID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{9A43BD49-C44C-414D-B742-36037F4A47FE}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>-48</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>-20</XPos>
+																						<YPos>0.06317</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-4.98138</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="CelticFairy" ID="{EB539950-DB25-4D8E-932B-FB4FD0AE5AAD}">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{06B4C7C9-4B7C-43B2-8F92-471DB5A6A9F7}" ShortID="594885358">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="CelticFairy_Sidechain" ID="{82B53A0C-2EEB-4F96-8092-EA0687797BBD}" WorkUnitID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{845E041A-63BB-4AEE-9B30-9F0CD9C87F40}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>-48</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>-20</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-6.27609</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="TankPiano" ID="{A14936C2-AD83-4888-97DD-1C49584555B6}">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{AAD97422-52BF-46B3-9373-97A910A1E793}" ShortID="589763121">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="TankPiano_Sidechain" ID="{1D5606AC-0E0B-49EC-8145-CC71C8054360}" WorkUnitID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{1E0F353B-8956-49FF-8A0B-0126551AD8E2}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>-48</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>-20</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-4.95569</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="GlitchSynth" ID="{E2228CD7-066F-4405-AC2D-5C94622A011B}">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{54C62E1A-9D57-4735-9BDA-370FD5F0F8E8}" ShortID="146118899">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="GlitchSynth_Sidechain" ID="{72501804-8ED6-4E2D-99B9-6503864B0B00}" WorkUnitID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{7AEB7ADF-5CD5-4A1D-B32F-BE0E01EE876E}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>-48</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>-20</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-4.10761</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="OtherInstruments" ID="{9BB828C0-54C4-49DD-AD7D-DEA14F49AE5D}"/>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F499FC93-086C-43A9-A0A3-5521626DBCA1}" ShortID="454960162">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="GainReduction" ID="{E90FF8F8-565C-48C2-8DC3-926C009687F1}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DC8F68BE-63A0-4943-903D-873B4994FAC9}" ShortID="728852631">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="MasterEQ" ID="{AFF99CA8-8F0E-4C4A-B452-B64E149D23A7}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{04D231C6-70E3-49E6-8BA1-C864861C678C}" ShortID="1018823986">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+														<ObjectRef Name="MasterCompressor" ID="{9CB88CC4-706E-4242-BFE2-B67C7549EFE5}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E4228966-AF68-4D2C-8F4A-311A9B02FBF0}" ShortID="45648694">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+														<ObjectRef Name="ReGain" ID="{4FD6B252-185C-48CF-8A38-62B7A5C5281C}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{CA42DF36-C816-4E61-801D-4E91E6FF39EE}" ShortID="856427665">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<ObjectRef Name="MasterLimiter" ID="{2D164B0B-0F8B-4C5A-A114-353B0AC9ACC4}" WorkUnitID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{E1803939-3AE2-433B-9B2C-3C9828ED3A8E}" ShortID="979581399">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Music_VolumeSlider" ID="{3F099080-FDA7-417F-BC51-8D6DC09F486B}" WorkUnitID="{6B162048-7454-42AA-9101-8FF03E56454C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{BEA603B1-5944-4014-B7FF-73CF18EB2BAC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0.1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Sound Effects Master Bus" ID="{7C592DE9-E7D9-48E3-9215-136DF2BD3FA2}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="PlayerCharacter" ID="{AE38BB0E-0FE0-4057-8E60-E78B9198D93E}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Enemies" ID="{7EBE8B5E-4369-464E-9816-E8D780197E1A}"/>
+											<DuckingParam>
+												<Volume>-11</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Environment" ID="{4B018B3C-7D02-441A-8752-7B64C97C1578}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="Enemies" ID="{7EBE8B5E-4369-464E-9816-E8D780197E1A}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Environment" ID="{4B018B3C-7D02-441A-8752-7B64C97C1578}"/>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2CCA64C4-8730-4E92-BEFC-119C27009573}" ShortID="553732154">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SEffects_VolumeSlider" ID="{8915E4A8-6F21-4B19-9EC6-DA7FD7EC3ABC}" WorkUnitID="{6B162048-7454-42AA-9101-8FF03E56454C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{0E832714-CED7-4E9C-A3F5-A2B94EB8B574}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0.1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

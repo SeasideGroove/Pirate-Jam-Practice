@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A9384B5-6A07-4BDB-B271-A7934B9C4495}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5A9384B5-6A07-4BDB-B271-A7934B9C4495}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DynamicMusic" ID="{114A0F10-B768-4AC1-B286-D46E68D127C1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game_Start" ID="{E3F129E8-2818-47B6-9225-76A41892D0F8}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Waves" ID="{B48C47BD-414E-494B-9404-F0A944310615}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Game_Over" ID="{9D167331-6485-4B9E-9E39-643C013101EC}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{EE730237-4885-4CD7-B2BA-E1977EF8306E}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SoundEffects" ID="{C89E49A0-CA8F-460C-8BEE-9440D52CAEFE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enemies" ID="{E1A22E7C-D6EA-40B5-9D64-09931C5764AA}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{BBF68352-3608-41CA-AF27-81F3B31DA306}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Environment" ID="{B98515D3-FEF4-4F10-8EBA-803D50D8398A}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

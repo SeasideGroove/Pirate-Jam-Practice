@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}" SchemaVersion="123">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{9AF78E81-737C-46B6-B5FE-08E67212C65A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Cyclosa_SCComp" ID="{297B97FE-9A79-47E8-BA95-32E4406AB4B3}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.065"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="2"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Cyclosa_Sidechain" ID="{D1831419-D0B2-4ECB-BA92-00186F9E7DDE}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Contrabass_SCComp" ID="{B07BA944-57D1-4D9A-B984-D23EA541C103}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.07"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.08"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Contrabass_Sidechain" ID="{37CDABEA-BFC0-4551-B19F-F28320452890}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CelticFairy_SCComp" ID="{959ACDDB-C274-4DB1-B661-D31DFCAB32E4}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.7"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.8"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="CelticFairy_Sidechain" ID="{82B53A0C-2EEB-4F96-8092-EA0687797BBD}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="TankPiano_SCComp" ID="{07ECBA32-C6D0-4662-8F9E-D79BCB9FD18A}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.6"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="TankPiano_Sidechain" ID="{1D5606AC-0E0B-49EC-8145-CC71C8054360}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="GlitchSynth_SCComp" ID="{D837D70E-1919-4CE3-8F77-6B2AC78D6F59}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.65"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.84"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="GlitchSynth_Sidechain" ID="{72501804-8ED6-4E2D-99B9-6503864B0B00}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="GainReduction" ID="{E90FF8F8-565C-48C2-8DC3-926C009687F1}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="-15.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MasterEQ" ID="{AFF99CA8-8F0E-4C4A-B452-B64E149D23A7}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="412"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-1.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MasterCompressor" ID="{9CB88CC4-706E-4242-BFE2-B67C7549EFE5}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.007"/>
+						<Property Name="Ratio" Type="Real32" Value="3.1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.023"/>
+						<Property Name="Threshold" Type="Real32" Value="-3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ReGain" ID="{4FD6B252-185C-48CF-8A38-62B7A5C5281C}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="14"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MasterLimiter" ID="{2D164B0B-0F8B-4C5A-A114-353B0AC9ACC4}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="LookAhead" Type="Real32" Value="0.02"/>
+						<Property Name="Threshold" Type="Real32" Value="-0.1"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5AD53F01-24EC-4283-9063-1B447FC7BCD1}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5AD53F01-24EC-4283-9063-1B447FC7BCD1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Sidechain Comp Test" ID="{13B7F4DA-CEB0-4B91-8FD2-E6BD8C6E8BA5}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Contrabass_Sidechain" ID="{37CDABEA-BFC0-4551-B19F-F28320452890}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CF1603FD-30A8-4641-AC20-486621E80235}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TankPiano_Sidechain" ID="{1D5606AC-0E0B-49EC-8145-CC71C8054360}"/>
+							<Value>5.79701056103618E-318</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GlitchSynth_Sidechain" ID="{72501804-8ED6-4E2D-99B9-6503864B0B00}"/>
+							<Value>5.79701056103618E-318</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cyclosa_Sidechain" ID="{D1831419-D0B2-4ECB-BA92-00186F9E7DDE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CelticFairy_Sidechain" ID="{82B53A0C-2EEB-4F96-8092-EA0687797BBD}"/>
+							<Value>5.79701056103618E-318</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{BF58EB89-11FA-4020-899C-0AC16631924F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Wave3" ID="{9A3974A9-24B7-43FD-8C3C-140298841071}"/>
+						<CurrentSwitchRef Name="Full" ID="{F4E41123-FB16-4609-8F7A-7B07E97070DA}"/>
+						<CurrentSwitchRef Name="GameStart" ID="{A6C7F983-DCC2-460A-B6C3-0BFE4B207953}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Test" ID="{DE7D60C9-9D2F-4F63-AE51-5CB54B0296FA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Game_Start" ID="{E3F129E8-2818-47B6-9225-76A41892D0F8}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_ForestFootstepsOn" ID="{B4248869-F4CB-4EFF-AEC8-88CBF11A658A}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wave1_Start" ID="{200D6774-73DC-4D1A-915E-2EFD3937CF7B}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_ForestFootstepsOff" ID="{CF140E54-F297-4CA5-A834-45D805B0AFB6}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wave2_Start" ID="{513DA46E-4440-4821-BEAC-7410FD4AE1C4}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enemy_ForestFootsteps" ID="{ECA63760-1CAF-4537-A0A0-A5EBAC01AB2C}" WorkUnitID="{91EA558D-8CFE-471A-A27E-56202E057B80}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wave3_Start" ID="{3267AEDD-A366-45B2-8D53-2DB9F563E75D}" WorkUnitID="{56C35273-8B5C-4E01-9C6C-9C05E03AB10D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PC_MeleeHit_Unarmed" ID="{47F68CDE-90B2-41C0-95B5-C5C24A60C88D}" WorkUnitID="{91EA558D-8CFE-471A-A27E-56202E057B80}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{CF1603FD-30A8-4641-AC20-486621E80235}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Alive" ID="{448DA0F1-FE65-4EB1-BC38-85628611579A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Start" ID="{D286F95A-D82D-44E7-A31A-B338DAB06236}"/>
+						<CurrentSwitchRef Name="Full" ID="{F4E41123-FB16-4609-8F7A-7B07E97070DA}"/>
+						<CurrentSwitchRef Name="GameOver" ID="{5E566BA0-CC08-490A-9E5D-92CBA48629CB}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

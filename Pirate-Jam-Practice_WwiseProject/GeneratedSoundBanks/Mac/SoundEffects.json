@@ -1,0 +1,522 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3898083304",
+    "Type": "User",
+    "GUID": "{C89E49A0-CA8F-460C-8BEE-9440D52CAEFE}",
+    "Language": "SFX",
+    "Hash": "{48253A72-4A6E-728B-72F3-D699869BFAB3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundEffects",
+    "ShortName": "SoundEffects",
+    "Path": "SoundEffects.bnk",
+    "Media": [
+     {
+      "Id": "33913086",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Punch 1.wav",
+      "CachePath": "9B/{9BA9D563-D119-69AA-9CE0-2B010C76B343}.wem"
+     },
+     {
+      "Id": "49778148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_SwordSwing1.wav",
+      "CachePath": "80/{8053D0F4-F19E-647F-BC6C-C77C690AC961}.wem"
+     },
+     {
+      "Id": "182227812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Punch 2.wav",
+      "CachePath": "A5/{A5D0D062-32B2-5347-3C4A-A50A3464495E}.wem"
+     },
+     {
+      "Id": "210386064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Punch 3.wav",
+      "CachePath": "C9/{C9FE779D-3BC3-0E5D-6725-6BA2BF577871}.wem"
+     },
+     {
+      "Id": "235858421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Punch Kill.wav",
+      "CachePath": "91/{9198CEEB-D74F-9CF4-45FD-523E2EADD949}.wem"
+     },
+     {
+      "Id": "304408672",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stab 1.wav",
+      "CachePath": "A1/{A1F63607-4E67-EF62-8243-DBBB01292B03}.wem"
+     },
+     {
+      "Id": "308919101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_SwordSwing2.wav",
+      "CachePath": "65/{6522B506-B217-BF27-9400-F6982327EDE3}.wem"
+     },
+     {
+      "Id": "403372128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_ForestFootsteps3.wav",
+      "CachePath": "A6/{A6CD6BED-3532-E526-430B-A5E531741B9E}.wem"
+     },
+     {
+      "Id": "432286883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Whoosh 2.wav",
+      "CachePath": "0D/{0DE17D9B-D691-8D73-7E2C-5FA533AC2B52}.wem"
+     },
+     {
+      "Id": "441484065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Normal Stab Bloody.wav",
+      "CachePath": "3B/{3B96E5E6-A2E7-FC01-1BC6-4A2F94671501}.wem"
+     },
+     {
+      "Id": "486406626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_SwordHit.wav",
+      "CachePath": "AC/{ACC3EE34-D422-CEEA-5370-A4B4C4B7AF7A}.wem"
+     },
+     {
+      "Id": "520895864",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crayon Hit.wav",
+      "CachePath": "8E/{8EF79071-851F-4627-5A97-988A4A53B8CF}.wem"
+     },
+     {
+      "Id": "548812793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Fall 2.wav",
+      "CachePath": "89/{89B8621D-60D0-2E7C-8DF9-7D422FC83500}.wem"
+     },
+     {
+      "Id": "558334575",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Fall 3.wav",
+      "CachePath": "28/{28673D51-B1D9-E4C3-B7E3-ECCB2CC70693}.wem"
+     },
+     {
+      "Id": "563453183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stab 2.wav",
+      "CachePath": "F0/{F03EE4BA-0693-77FB-AEF0-B4B1B957615F}.wem"
+     },
+     {
+      "Id": "625937772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Punch 3.wav",
+      "CachePath": "A6/{A6F3F4F7-BD77-3AD7-E7ED-C5196A885510}.wem"
+     },
+     {
+      "Id": "636680764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_SwordSwing3.wav",
+      "CachePath": "AF/{AF2A8536-CB2E-F162-3CA1-2B42FDED59D2}.wem"
+     },
+     {
+      "Id": "714503439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Punch 1.wav",
+      "CachePath": "2C/{2C1A9809-39CF-7C44-A797-44E754ADFD98}.wem"
+     },
+     {
+      "Id": "736676584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stab 3.wav",
+      "CachePath": "7A/{7AFDB47C-F993-F3F9-D07E-962ADDD31F56}.wem"
+     },
+     {
+      "Id": "747726207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Punch 2.wav",
+      "CachePath": "D8/{D8091E06-98C8-BA9C-51C6-6DE2A1D16AF8}.wem"
+     },
+     {
+      "Id": "766838447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Fall 1.wav",
+      "CachePath": "F2/{F2E1278F-757A-13A3-1E5C-30988500EB7F}.wem"
+     },
+     {
+      "Id": "782767119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_ForestFootsteps2.wav",
+      "CachePath": "61/{614ED5B4-56F1-B002-95F5-69585B2D1E20}.wem"
+     },
+     {
+      "Id": "785149413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Whoosh 1.wav",
+      "CachePath": "CE/{CED67A91-F257-03E9-D4D1-28A95F15DD0E}.wem"
+     },
+     {
+      "Id": "794288032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PC_ForestFootsteps1.wav",
+      "CachePath": "27/{273BAD65-8DBC-E722-77B5-0DE280C8FCF7}.wem"
+     },
+     {
+      "Id": "1046780744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pillow Whoosh 3.wav",
+      "CachePath": "47/{47B11FE9-6798-4E48-B86F-558828589FA9}.wem"
+     },
+     {
+      "Id": "1058167969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Throw.wav",
+      "CachePath": "C4/{C4215CAB-A39E-E581-9BDB-386DDC5F0607}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "414206859",
+      "Name": "Enemy_CrayonHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_CrayonHit",
+      "GUID": "{3FD41389-85EA-4D41-9347-AA9D51B00B7B}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78009963",
+      "DurationMax": "0.8756322",
+      "MediaRefs": [
+       {
+        "Id": "486406626"
+       },
+       {
+        "Id": "520895864"
+       }
+      ]
+     },
+     {
+      "Id": "2413635886",
+      "Name": "Enemy_FootstepsOff",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_FootstepsOff",
+      "GUID": "{A15E71EC-B241-433D-AD7B-C94D2985E2FC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3921616528",
+      "Name": "Enemy_FootstepsOn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_FootstepsOn",
+      "GUID": "{3BCDBD98-C9EE-419A-9C55-3FE6E802207B}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "403372128"
+       },
+       {
+        "Id": "782767119"
+       },
+       {
+        "Id": "794288032"
+       }
+      ]
+     },
+     {
+      "Id": "4279108229",
+      "Name": "Enemy_HitPlayerKnife",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_HitPlayerKnife",
+      "GUID": "{F933E3F7-8A1A-4E52-ABAA-98A6BAE4182C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43319526",
+      "DurationMax": "0.5838734",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3762137787",
+         "Id": "2044049779",
+         "GUID": "{F70117BB-5DEB-4E18-B838-91F060DD2BA9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "441484065"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3762137787",
+         "Id": "655265632",
+         "GUID": "{448DA0F1-FE65-4EB1-BC38-85628611579A}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "304408672"
+         },
+         {
+          "Id": "563453183"
+         },
+         {
+          "Id": "736676584"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "809636346",
+      "Name": "Enemy_HitPlayerMelee",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_HitPlayerMelee",
+      "GUID": "{D3FA346D-7981-4254-A0C6-33468C10611B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4303707",
+      "DurationMax": "0.5874623",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3762137787",
+         "Id": "2044049779",
+         "GUID": "{F70117BB-5DEB-4E18-B838-91F060DD2BA9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "235858421"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3762137787",
+         "Id": "655265632",
+         "GUID": "{448DA0F1-FE65-4EB1-BC38-85628611579A}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "33913086"
+         },
+         {
+          "Id": "182227812"
+         },
+         {
+          "Id": "625937772"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "275781020",
+      "Name": "Enemy_SwordHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Enemy_SwordHit",
+      "GUID": "{6C5A95F1-2900-45CC-9CEE-69264774736B}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78009963",
+      "DurationMax": "0.8756322",
+      "MediaRefs": [
+       {
+        "Id": "486406626"
+       }
+      ]
+     },
+     {
+      "Id": "753173717",
+      "Name": "ENV_PillowDrop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\ENV_PillowDrop",
+      "GUID": "{11ABE963-DB84-494B-8867-A3304D61F389}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24853386",
+      "DurationMax": "0.38675615",
+      "MediaRefs": [
+       {
+        "Id": "548812793"
+       },
+       {
+        "Id": "558334575"
+       },
+       {
+        "Id": "766838447"
+       }
+      ]
+     },
+     {
+      "Id": "3024685458",
+      "Name": "PC_ForestFootstepsOff",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PC_ForestFootstepsOff",
+      "GUID": "{CF140E54-F297-4CA5-A834-45D805B0AFB6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "596498100",
+      "Name": "PC_ForestFootstepsOn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PC_ForestFootstepsOn",
+      "GUID": "{B4248869-F4CB-4EFF-AEC8-88CBF11A658A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "403372128"
+       },
+       {
+        "Id": "782767119"
+       },
+       {
+        "Id": "794288032"
+       }
+      ]
+     },
+     {
+      "Id": "1328694536",
+      "Name": "PC_PillowDisarm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PC_PillowDisarm",
+      "GUID": "{A1288FE1-B9DF-4D9B-976C-972B37C3371C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.60869384",
+      "DurationMax": "0.6690916",
+      "MediaRefs": [
+       {
+        "Id": "210386064"
+       },
+       {
+        "Id": "432286883"
+       },
+       {
+        "Id": "714503439"
+       },
+       {
+        "Id": "747726207"
+       },
+       {
+        "Id": "785149413"
+       },
+       {
+        "Id": "1046780744"
+       }
+      ]
+     },
+     {
+      "Id": "1094486518",
+      "Name": "PC_SwordSwing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PC_SwordSwing",
+      "GUID": "{67E54890-A9D8-41EB-A108-6557D5E80566}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2746942",
+      "DurationMax": "0.44516587",
+      "MediaRefs": [
+       {
+        "Id": "49778148"
+       },
+       {
+        "Id": "308919101"
+       },
+       {
+        "Id": "636680764"
+       }
+      ]
+     },
+     {
+      "Id": "2407453025",
+      "Name": "PC_ThrowCrayon",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PC_ThrowCrayon",
+      "GUID": "{81EFEFE0-0B27-4EF7-9ADC-B269C897FC90}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17034371",
+      "DurationMax": "0.19120435",
+      "MediaRefs": [
+       {
+        "Id": "1058167969"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3762137787",
+      "Name": "Player_Life",
+      "ObjectPath": "\\States\\Default Work Unit\\Player_Life",
+      "GUID": "{F1BEB2F1-9741-4BE0-9CCA-1A6EC4D6763C}",
+      "States": [
+       {
+        "Id": "655265632",
+        "Name": "Alive",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_Life\\Alive",
+        "GUID": "{448DA0F1-FE65-4EB1-BC38-85628611579A}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_Life\\None",
+        "GUID": "{BF58EB89-11FA-4020-899C-0AC16631924F}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_Life\\Dead",
+        "GUID": "{F70117BB-5DEB-4E18-B838-91F060DD2BA9}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{755E8C7D-21EE-9F12-FBF8-D482EE38892F}"
+ }
+}

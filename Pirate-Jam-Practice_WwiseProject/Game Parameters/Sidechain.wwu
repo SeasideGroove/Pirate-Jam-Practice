@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Sidechain" ID="{E94E0A4A-D1F0-4A91-8037-75A692CB22C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Cyclosa_Sidechain" ID="{D1831419-D0B2-4ECB-BA92-00186F9E7DDE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Contrabass_Sidechain" ID="{37CDABEA-BFC0-4551-B19F-F28320452890}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="GlitchSynth_Sidechain" ID="{72501804-8ED6-4E2D-99B9-6503864B0B00}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CelticFairy_Sidechain" ID="{82B53A0C-2EEB-4F96-8092-EA0687797BBD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="TankPiano_Sidechain" ID="{1D5606AC-0E0B-49EC-8145-CC71C8054360}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
