@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 230d154a4fa8b246adef89cca3c16847
     GuidInternal: 
-    m_lastTime: -8584649881871241423
+    m_lastTime: -8584648899238609132
     List: []
   - PhysicalPath: Virtual Acoustics/Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584649881871276237
+    m_lastTime: -8584648899238644612
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: f768c29e9aa2a9479d0282c41f4f9971
     GuidInternal: 
-    m_lastTime: -8584649881871813242
+    m_lastTime: -8584648899239226998
     List:
     - name: BassDrum
       guid: 3c359ffaf849aa4f8cd1d24af502be03
@@ -613,7 +613,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: b584935a076adb4bb271a7934b9c4495
     GuidInternal: 
-    m_lastTime: -8584649809736555092
+    m_lastTime: -8584648899239151695
     List:
     - name: DynamicMusic
       guid: 100f4a1168b7c14ab286d46e68d127c1
@@ -655,7 +655,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 7352c3565c8b014e9c6c9c05e03ab10d
     GuidInternal: 
-    m_lastTime: -8584649881871797488
+    m_lastTime: -8584648899239208923
     List:
     - name: Enemies
       guid: 7c2ea2e1ead6b5409d6409931c5764aa
@@ -1108,8 +1108,22 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 4820166b5474aa4291018ff03e56454c
     GuidInternal: 
-    m_lastTime: -8584649881871701642
+    m_lastTime: -8584648856621959830
     List:
+    - name: Music_VolumeSlider
+      guid: 8090093fa7fd7f41bc518d6dc09f486b
+      id: 3415784672
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4820166b5474aa4291018ff03e56454c
+      - ElementName: Music_VolumeSlider
+        ObjectType: 13
+        guid: 8090093fa7fd7f41bc518d6dc09f486b
+      Path: Game Parameters/Default Work Unit/Music_VolumeSlider
     - name: Player_Health
       guid: fd0316cfa8304146ac20486621e80235
       id: 215992295
@@ -1124,6 +1138,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: fd0316cfa8304146ac20486621e80235
       Path: Game Parameters/Default Work Unit/Player_Health
+    - name: SEffects_VolumeSlider
+      guid: a8e41589216f194b9ec6da7fd7ec3abc
+      id: 575395640
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4820166b5474aa4291018ff03e56454c
+      - ElementName: SEffects_VolumeSlider
+        ObjectType: 13
+        guid: a8e41589216f194b9ec6da7fd7ec3abc
+      Path: Game Parameters/Default Work Unit/SEffects_VolumeSlider
   - PhysicalPath: Game Parameters/Sidechain.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -1135,7 +1163,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Sidechain
     guid: 4a0a4ee9f0d1914a803775a692cb22c7
     GuidInternal: 
-    m_lastTime: -8584649881871675218
+    m_lastTime: -8584648899239102499
     List:
     - name: CelticFairy_Sidechain
       guid: 0c3ab582eb2e964f8092ea0687797bbd
@@ -1219,7 +1247,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 6dd94d23b0ccf14cbf4c52255a2fd8d0
     GuidInternal: 
-    m_lastTime: -8584649881871712802
+    m_lastTime: -8584648899239172447
     List:
     - name: Player_Life
       guid: f1b2bef14197e04b9cca1a6ec4d6763c
@@ -1299,7 +1327,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: eb26cc01daa37949ac3365619c823d46
     GuidInternal: 
-    m_lastTime: -8584649881871760102
+    m_lastTime: -8584648899239190390
     List:
     - name: BGM_Switch
       guid: b07c1685315d234dbc13c60bd4af81e9
@@ -1575,7 +1603,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: d0a9ab9b08cec645a0cc4f15cd892023
     GuidInternal: 
-    m_lastTime: -8584649881871218730
+    m_lastTime: -8584648899238671754
     List:
     - name: Player_Death
       guid: ca38434639d22044bae07fa6a491dc37
@@ -1591,8 +1619,8 @@ MonoBehaviour:
         ObjectType: 14
         guid: ca38434639d22044bae07fa6a491dc37
       Path: Triggers/Default Work Unit/Player_Death
-  ExpandedFileSystemItemIds: 020000000300000006000000070000000f0000001200000013000000170000001b0000001c0000001d0000002000000033000000
-  ExpandedWaapiItemIds: 02000000040000000500000006000000070000000c0000000e00000010000000110000001200000013000000160000001700000018000000190000001c0000001d00000020000000220000002300000033000000
+  ExpandedFileSystemItemIds: 010000000200000003000000040000000500000006000000070000000f00000010000000120000001300000016000000170000001c0000001e0000001f000000220000002e0000002f0000003300000034000000c40000003c0200003d0200003e020000400200004102000042020000430200004602000047020000480200004a0200004b0200004c0200004f0200005002000054020000550200005602000057020000580200005b0200005d0200005e0200006002000061020000640200006502000069020000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000c0000000d0000000e0000000f00000010000000110000001200000013000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002200000023000000270000002e0000002f000000330000003400000052000000c40000003c0200003d0200003e020000400200004102000042020000430200004602000047020000480200004a0200004b0200004c0200004f0200005002000054020000550200005602000057020000580200005b0200005d0200005e0200006002000061020000640200006502000069020000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0

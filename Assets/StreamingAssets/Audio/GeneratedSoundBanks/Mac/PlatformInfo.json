@@ -6,11 +6,11 @@
    "Generator": "2024.1.1.8691"
   },
   "RootPaths": {
-   "ProjectRoot": "../../../../../../../../Documents/WwiseProjects/PirateSoftware GameJam 16 Practice Project",
-   "SourceFilesRoot": "../../../../../../../../Documents/WwiseProjects/PirateSoftware GameJam 16 Practice Project/.cache",
+   "ProjectRoot": "../../../../../Pirate-Jam-Practice_WwiseProject",
+   "SourceFilesRoot": "../../../../../Pirate-Jam-Practice_WwiseProject/.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "../../../../../../../../Documents/WwiseProjects/PirateSoftware GameJam 16 Practice Project/GeneratedSoundBanks/Mac"
+   "ExternalSourcesOutputRoot": "../../../../../Pirate-Jam-Practice_WwiseProject/GeneratedSoundBanks/Mac"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -19,7 +19,7 @@
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
    "SourceControlGeneratedFiles": "false",
-   "GenerateHeaderFile": "true",
+   "GenerateHeaderFile": "false",
    "GenerateContentTxtFile": "true",
    "GenerateMetadataXML": "false",
    "GenerateMetadataJSON": "true",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{525074D4-3F5F-ED59-5D77-AE4740906796}"
+  "FileHash": "{07A802F6-22C7-16B9-8FCA-852F0DA64D25}"
  }
 }
