@@ -1,4 +1,0 @@
-repository "PirateSoftware Game Jam 16 Practice Project/Pirate-Jam-Practice@3574288060347@cloud"
-  path "/"
-    br "/main"
-    co "/main"
