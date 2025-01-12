@@ -99,7 +99,9 @@ namespace AK
         static const AkUniqueID CONTRABASS_SIDECHAIN = 2810791370U;
         static const AkUniqueID CYCLOSA_SIDECHAIN = 3172951054U;
         static const AkUniqueID GLITCHSYNTH_SIDECHAIN = 3044956269U;
+        static const AkUniqueID MUSIC_VOLUMESLIDER = 3415784672U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
+        static const AkUniqueID SEFFECTS_VOLUMESLIDER = 575395640U;
         static const AkUniqueID TANKPIANO_SIDECHAIN = 489317449U;
     } // namespace GAME_PARAMETERS
 

@@ -21,6 +21,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	489317449	TankPiano_Sidechain			\Sidechain\TankPiano_Sidechain	
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	575395640	SEffects_VolumeSlider			\Default Work Unit\SEffects_VolumeSlider	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
 	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
@@ -33,6 +34,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3044956269	GlitchSynth_Sidechain			\Sidechain\GlitchSynth_Sidechain	
 	3172951054	Cyclosa_Sidechain			\Sidechain\Cyclosa_Sidechain	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3415784672	Music_VolumeSlider			\Default Work Unit\Music_VolumeSlider	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
 	3966155101	CelticFairy_Sidechain			\Sidechain\CelticFairy_Sidechain	
 	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	

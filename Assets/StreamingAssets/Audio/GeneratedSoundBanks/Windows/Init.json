@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B0D55BE6-6EE3-2F09-70AD-9194693F916F}",
+    "Hash": "{272DC278-BAEE-3241-84C5-A9C7B74FBEEC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -254,6 +254,12 @@
       "GUID": "{1D5606AC-0E0B-49EC-8145-CC71C8054360}"
      },
      {
+      "Id": "575395640",
+      "Name": "SEffects_VolumeSlider",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SEffects_VolumeSlider",
+      "GUID": "{8915E4A8-6F21-4B19-9EC6-DA7FD7EC3ABC}"
+     },
+     {
       "Id": "2810791370",
       "Name": "Contrabass_Sidechain",
       "ObjectPath": "\\Game Parameters\\Sidechain\\Contrabass_Sidechain",
@@ -270,6 +276,12 @@
       "Name": "Cyclosa_Sidechain",
       "ObjectPath": "\\Game Parameters\\Sidechain\\Cyclosa_Sidechain",
       "GUID": "{D1831419-D0B2-4ECB-BA92-00186F9E7DDE}"
+     },
+     {
+      "Id": "3415784672",
+      "Name": "Music_VolumeSlider",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_VolumeSlider",
+      "GUID": "{3F099080-FDA7-417F-BC51-8D6DC09F486B}"
      },
      {
       "Id": "3966155101",
@@ -892,6 +904,6 @@
     ]
    }
   ],
-  "FileHash": "{AAEEE438-31AA-72B4-AB7A-8B5A73380B3D}"
+  "FileHash": "{321CD0E0-6296-4367-DF7C-D791C313BDF6}"
  }
 }
