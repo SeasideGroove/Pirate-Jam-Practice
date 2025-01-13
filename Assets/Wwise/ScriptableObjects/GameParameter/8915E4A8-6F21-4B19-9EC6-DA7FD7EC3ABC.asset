@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed13045c088e47af8503dc11d210abc, type: 3}
-  m_Name: E3F129E8-2818-47B6-9225-76A41892D0F8
+  m_Script: {fileID: 11500000, guid: f57670d29d49f439fa56948a115cce69, type: 3}
+  m_Name: 8915E4A8-6F21-4B19-9EC6-DA7FD7EC3ABC
   m_EditorClassIdentifier: 
-  objectName: Game_Start
-  id: 733168346
-  guid: E3F129E8-2818-47B6-9225-76A41892D0F8
-  IsInUserDefinedSoundBank: 0
-  IsAutoBankLoaded: 0
+  objectName: SEffects_VolumeSlider
+  id: 575395640
+  guid: 8915E4A8-6F21-4B19-9EC6-DA7FD7EC3ABC
