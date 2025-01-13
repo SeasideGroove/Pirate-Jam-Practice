@@ -6,9 +6,9 @@ The content of this file may not be used without valid licenses to the
 AUDIOKINETIC Wwise Technology.
 Note that the use of the game engine is subject to the Unity(R) Terms of
 Service at https://unity3d.com/legal/terms-of-service
- 
+
 License Usage
- 
+
 Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
 this file in accordance with the end user license agreement provided with the
 software or, alternatively, in accordance with the terms contained
@@ -44,6 +44,7 @@ public class AkWwiseTreeProjectDataSource : AkWwiseTreeDataSource
 		ProjectRoot.AddWwiseItemChild(BuildObjectTypeTree(WwiseObjectType.Soundbank));
 		ProjectRoot.AddWwiseItemChild(BuildObjectTypeTree(WwiseObjectType.AuxBus));
 		ProjectRoot.AddWwiseItemChild(BuildObjectTypeTree(WwiseObjectType.AcousticTexture));
+		ProjectRoot.AddWwiseItemChild(BuildObjectTypeTree(WwiseObjectType.GameParameter));
 
 		TreeUtility.TreeToList(ProjectRoot, ref Data);
 	}
@@ -222,7 +223,7 @@ public class AkWwiseTreeProjectDataSource : AkWwiseTreeDataSource
 		{
 			return Data.ItemDict[guid];
 		}
-		
+
 
 		return null;
 	}
@@ -290,7 +291,7 @@ public class AkWwiseTreeProjectDataSource : AkWwiseTreeDataSource
 		Changed();
 	}
 
-	public override void SaveExpansionStatus(List<int> expandedItems )
+	public override void SaveExpansionStatus(List<int> expandedItems)
 	{
 		AkWwiseProjectInfo.GetData().ExpandedFileSystemItemIds = expandedItems;
 	}
