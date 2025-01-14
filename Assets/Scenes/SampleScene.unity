@@ -689,9 +689,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006460707}
-  - component: {fileID: 1006460709}
   - component: {fileID: 1006460710}
   - component: {fileID: 1006460708}
+  - component: {fileID: 1006460711}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -750,20 +750,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1006460709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006460706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6399f224484c4b4b9843cb2b2683fc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_movementSpeed: 5
-  m_moveDirection: {x: 0, y: 0, z: 0}
 --- !u!114 &1006460710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +779,20 @@ MonoBehaviour:
         m_CallState: 2
   m_playerInput: {fileID: 1006460708}
   m_playerImage: {fileID: 1335898942}
+--- !u!114 &1006460711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006460706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da1334bc0494c80aabc0a58e896c7cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 5
+  m_moveDirection: {x: 0, y: 0, z: 0}
 --- !u!1 &1104994418
 GameObject:
   m_ObjectHideFlags: 0

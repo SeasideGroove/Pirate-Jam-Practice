@@ -87,3 +87,5 @@ IncrementalSoundBankData.xml
 # Wwise project folder
 /Pirate-Jam-Practice_WwiseProject/*
 !/Pirate-Jam-Practice_WwiseProject/*.wproj
+
+.idea/*
