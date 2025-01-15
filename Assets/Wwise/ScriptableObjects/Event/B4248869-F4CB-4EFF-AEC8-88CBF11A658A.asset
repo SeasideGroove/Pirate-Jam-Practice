@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed13045c088e47af8503dc11d210abc, type: 3}
+  m_Name: B4248869-F4CB-4EFF-AEC8-88CBF11A658A
+  m_EditorClassIdentifier: 
+  objectName: PC_ForestFootstepsOn
+  id: 596498100
+  guid: B4248869-F4CB-4EFF-AEC8-88CBF11A658A
+  IsInUserDefinedSoundBank: 0
+  IsAutoBankLoaded: 0
