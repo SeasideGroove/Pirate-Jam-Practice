@@ -16,7 +16,8 @@ namespace Character
         // Input Actions
         private void OnMove(InputValue value)
         {
-            m_moveDirection = value.Get<Vector2>();
+            Vector2 moveInput = value.Get<Vector2>();
+            m_moveDirection = new Vector3(moveInput.x, 0f, moveInput.y);
         }
 
         private void OnAttack(InputValue value)
