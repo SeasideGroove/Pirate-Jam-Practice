@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c771e47a684e55b6a6e3a8acd636ab, type: 3}
   m_Name: ToySword
   m_EditorClassIdentifier: 
-  ActiveTime: 1
-  Size: {x: 1, y: 1}
+  ActiveTime: 0.2
+  Size: {x: 1, y: 1, z: 1}

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.pi.subsystems": {
+      "version": "https://github.com/josiest/Unity-Subsystems.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "99b10c30d4a0ac17265480100a81b32f14b533a8"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,

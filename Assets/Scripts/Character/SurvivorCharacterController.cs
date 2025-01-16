@@ -14,20 +14,24 @@ namespace Character
 
         [Header("Debug")]
         [SerializeField] protected Vector3 m_moveDirection; // JT: made protected so subclasses can change
-        [SerializeField] protected bool m_moving;
-        public Vector2 FacingDirection => m_moveDirection.normalized;
+        [SerializeField] protected bool m_isMoving;
+        
+        // Unity Events
 
-        private void Awake()
+        protected virtual void Awake()
         {
-            m_moving = false;
+            m_isMoving = false;
         }
 
-        // Unity Events
         protected virtual void FixedUpdate()
         {
             Move();
         }
 
+        protected virtual void OnTriggerEnter(Collider other)
+        {
+            Destroy(other.gameObject);
+        }
         // Character Controller Interface
         protected virtual void Move()
         {
@@ -40,29 +44,24 @@ namespace Character
         {
             if (m_moveDirection == Vector3.zero)
             {
-                if (m_moving == false)
+                if (!m_isMoving)
                 {
                     return;
                 }
 
-                m_moving = false;
+                m_isMoving = false;
                 StoppedMoving.Invoke(gameObject);
             }
             else
             {
-                if (m_moving == true)
+                if (m_isMoving)
                 {
                     return;
                 }
 
-                m_moving = true;
+                m_isMoving = true;
                 StartedMoving.Invoke(gameObject);
             }
-        }
-
-        protected virtual void Attack()
-        {
-            Debug.Log("Attack!");
         }
     }
 }

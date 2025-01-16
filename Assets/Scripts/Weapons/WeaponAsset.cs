@@ -9,6 +9,6 @@ namespace Weapons
         public float ActiveTime = 1f;
 
         [Tooltip("The size of the weapon's bounding box")]
-        public Vector2 Size;
+        public Vector3 Size = Vector3.one;
     }
 }
