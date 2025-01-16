@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyles.uss?fileID=7433441132597879392&amp;guid=78c47ee7e7f425d4cbd647a281437a44&amp;type=3#MenuStyles" />
+    <engine:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(255, 255, 255);">
+        <engine:VisualElement name="LogoContainer" style="flex-grow: 1; height: 50%;">
+            <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Logo.png?fileID=2800000&amp;guid=4426b8a28d47f864b89de04654641722&amp;type=3#Logo&quot;); margin-right: 20%; margin-bottom: 5%; margin-left: 20%; margin-top: 5%;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: center; align-items: center; -unity-text-outline-color: rgba(0, 0, 0, 0); margin-bottom: 10px; height: 50%;">
+            <engine:Button text="Start&#10;" name="StartButton" class="mainButton" />
+            <engine:Button double-click-selects-word="false" name="SettingsButton" text="Settings" class="mainButton" />
+            <engine:Button text="Quit" name="QuitButton" class="mainButton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

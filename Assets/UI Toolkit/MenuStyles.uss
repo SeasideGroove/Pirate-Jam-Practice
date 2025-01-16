@@ -1,0 +1,44 @@
+.mainButton {
+    width: 600px;
+    height: 150px;
+    font-size: 120px;
+    background-color: rgb(84, 193, 212);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition-duration: 0.1s;
+}
+
+.mainButton:hover {
+    width: 600px;
+    height: 150px;
+    font-size: 120px;
+    background-color: rgb(84, 193, 212);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    scale: 1.1 1.1;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.mainButton:active {
+    width: 600px;
+    height: 150px;
+    font-size: 120px;
+    background-color: rgb(84, 212, 135);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    scale: 1.1 1.1;
+    transition-duration: 0.05s;
+}
