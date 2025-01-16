@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using Weapons;
 
 namespace Character
 {
+    [RequireComponent(typeof(WeaponController))]
     public class SurvivorCharacterController : MonoBehaviour
     {
         [Header("Configure")]
         public float MovementSpeed = 5; // JT: made public so that other scripts can change this in future
+        protected WeaponController weapon;
 
         [Header("Events")]
         public UnityEvent<GameObject> StartedMoving;
@@ -21,6 +24,7 @@ namespace Character
         protected virtual void Awake()
         {
             m_isMoving = false;
+            weapon = GetComponent<WeaponController>();
         }
 
         protected virtual void FixedUpdate()
@@ -30,9 +34,18 @@ namespace Character
 
         protected virtual void OnTriggerEnter(Collider other)
         {
-            Destroy(other.gameObject);
+            if (other.gameObject.layer == LayerMask.NameToLayer("Weapon"))
+            {
+                Kill();
+            }
         }
+
         // Character Controller Interface
+        public virtual void Kill()
+        {
+            Destroy(gameObject);
+        }
+            
         protected virtual void Move()
         {
             transform.localPosition += Time.fixedDeltaTime * MovementSpeed * m_moveDirection;

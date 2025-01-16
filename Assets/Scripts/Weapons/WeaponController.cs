@@ -12,14 +12,23 @@ namespace Weapons
         public WeaponAsset Weapon;
 
         private float attackTimer = -1f;
+        private float cooldownTimer = -1f;
+
+        public delegate void WeaponEvent();
+        public WeaponEvent OnWeaponReady;
+
+        public bool IsWeaponReady => cooldownTimer < 0f;
        
         // Weapon Controller Interface
 
         public void Attack(Vector2 direction)
         {
+            if (!IsWeaponReady) { return; }
+
             BoxCollider weaponHitBox = direction.x < 0? LeftHitBox : RightHitBox;
             weaponHitBox.enabled = true;
             attackTimer = 0f;
+            cooldownTimer = 0f;
         }
 
         // Unity Events
@@ -44,6 +53,15 @@ namespace Weapons
             else if (attackTimer >= 0f)
             {
                 attackTimer += Time.fixedDeltaTime;
+            }
+            if (cooldownTimer >= Weapon.CooldownTime)
+            {
+                cooldownTimer = -1f;
+                OnWeaponReady?.Invoke();
+            }
+            else if (cooldownTimer >= 0f)
+            {
+                cooldownTimer += Time.fixedDeltaTime;
             }
         }
 

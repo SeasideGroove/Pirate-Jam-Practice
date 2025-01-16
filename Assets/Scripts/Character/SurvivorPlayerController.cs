@@ -1,17 +1,20 @@
 ﻿using MapSystems;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Weapons;
 
 namespace Character
 {
-    [RequireComponent(typeof(WeaponController))]
     public class SurvivorPlayerController : SurvivorCharacterController
     {
         protected override void Awake()
         {
             base.Awake();
-            weapon = GetComponent<WeaponController>();
+            PlayerControllerSystem.RegisterPlayerController(this);
+        }
+
+        public override void Kill()
+        {
+            Debug.Log("Player Died!");
         }
 
         // Input Actions
@@ -34,7 +37,5 @@ namespace Character
 
             weapon.Attack(diff);
         }
-
-        private WeaponController weapon;
     }
 }
