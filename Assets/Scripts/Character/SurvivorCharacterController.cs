@@ -43,9 +43,8 @@ namespace Character
         // Character Controller Interface
         public virtual void Kill()
         {
-            Destroy(gameObject);
         }
-            
+
         protected virtual void Move()
         {
             transform.localPosition += Time.fixedDeltaTime * MovementSpeed * m_moveDirection;

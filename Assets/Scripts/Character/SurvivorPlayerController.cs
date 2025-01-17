@@ -1,20 +1,34 @@
-﻿using MapSystems;
+﻿using System;
+using MapSystems;
+using TerminalEvents;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Character
 {
+    [RequireComponent(typeof(PlayerInput))]
     public class SurvivorPlayerController : SurvivorCharacterController
     {
+        private PlayerInput input;
+
         protected override void Awake()
         {
             base.Awake();
             PlayerControllerSystem.RegisterPlayerController(this);
+            input = GetComponent<PlayerInput>();
+        }
+
+        private void Start()
+        {
+            var terminalEvents = MapSystem.FindOrRegister<TerminalEventSystem>();
+            terminalEvents.OnGameOver += OnGameOver;
+            terminalEvents.OnReset += OnReset;
         }
 
         public override void Kill()
         {
-            Debug.Log("Player Died!");
+            var terminalEvents = MapSystem.FindOrRegister<TerminalEventSystem>();
+            terminalEvents?.GameOver();
         }
 
         // Input Actions
@@ -36,6 +50,16 @@ namespace Character
             var diff = isometricMouse - isometricPlayer;
 
             weapon.Attack(diff);
+        }
+
+        private void OnGameOver()
+        {
+            input.DeactivateInput();
+        }
+
+        private void OnReset()
+        {
+            input.ActivateInput();
         }
     }
 }

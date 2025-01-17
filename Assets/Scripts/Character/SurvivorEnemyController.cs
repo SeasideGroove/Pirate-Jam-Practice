@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using MapSystems;
+using TerminalEvents;
+using UnityEngine;
 
 namespace Character
 {
@@ -10,7 +12,7 @@ namespace Character
         
         private enum EnemyState
         {
-            Idle, Attacking, Moving
+            Idle, Attacking, Moving, GameOver
         }
         private EnemyState currentState = EnemyState.Idle;
         private float attackTimer = -1f;
@@ -21,6 +23,13 @@ namespace Character
         {
             base.Awake();
             weapon.OnWeaponReady += OnWeaponReady;
+        }
+
+        private void Start()
+        {
+            var terminalEvents = MapSystem.FindOrRegister<TerminalEventSystem>();
+            terminalEvents.OnGameOver += OnGameOver;
+            terminalEvents.OnReset += OnReset;
         }
 
         protected override void FixedUpdate()
@@ -73,6 +82,11 @@ namespace Character
         }
 
         // Internal Interface
+        public override void Kill()
+        {
+            Destroy(gameObject);
+        }
+
         private void Attack()
         {
             weapon.Attack(attackDirection);
@@ -90,6 +104,16 @@ namespace Character
             {
                 Attack();
             }
+        }
+
+        private void OnGameOver()
+        {
+            currentState = EnemyState.GameOver;
+        }
+
+        private void OnReset()
+        {
+            Kill();
         }
     }
 }
