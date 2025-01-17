@@ -20,6 +20,11 @@ namespace Weapons
         public bool IsWeaponReady => cooldownTimer < 0f;
        
         // Weapon Controller Interface
+        public void DisableWeapon()
+        {
+            LeftHitBox.enabled = false;
+            RightHitBox.enabled = false;
+        }
 
         public void Attack(Vector2 direction)
         {

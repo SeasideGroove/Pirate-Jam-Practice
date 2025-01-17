@@ -84,6 +84,12 @@ namespace Character
         // Internal Interface
         public override void Kill()
         {
+            var terminalEvents = MapSystem.Find<TerminalEventSystem>();
+            if (terminalEvents)
+            {
+                terminalEvents.OnGameOver -= OnGameOver;
+                terminalEvents.OnReset -= OnReset;
+            }
             Destroy(gameObject);
         }
 
@@ -108,7 +114,7 @@ namespace Character
 
         private void OnGameOver()
         {
-            currentState = EnemyState.GameOver;
+            Kill();
         }
 
         private void OnReset()
